@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
           toolbarHeight: 50.0,
         ),
         body: SafeArea(
-          child: Text('Hello World'),
+          child: Text('Hello'),
         ),
       ),
     );
