@@ -5,8 +5,6 @@ void main() {
 }
 
 class MedsApp extends StatelessWidget {
-  const MedsApp({Key key}) : super(key: key);
-
   @override
   Widget build(BuildContext context) {
     return HomePage();
@@ -14,8 +12,6 @@ class MedsApp extends StatelessWidget {
 }
 
 class HomePage extends StatefulWidget {
-  const HomePage({Key key}) : super(key: key);
-
   @override
   _HomePageState createState() => _HomePageState();
 }
@@ -26,23 +22,14 @@ class _HomePageState extends State<HomePage> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: "Medicine Reminder",
+          title: Text('Medicine App'),
           backgroundColor: Colors.lightBlue,
           toolbarHeight: 50.0,
         ),
         body: SafeArea(
-          floatingActionButton : FloatingActionButton(
-            onPressed: (){
-
-            },
-            child: Icon(
-              Icons.add,
-            ),
-            backgroundColor: Colors.lightBlueAccent,
-          ),
+          child: Text('Hello'),
         ),
       ),
     );
   }
 }
-
