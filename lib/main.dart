@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           title: Text('Medicine App'),
           backgroundColor: Colors.lightBlue,
-          toolbarHeight: 50.0,
+          toolbarHeight: 60.0,
         ),
         body: SafeArea(
           child: Text('Hello'),
